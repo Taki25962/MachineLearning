@@ -12,6 +12,10 @@ from sklearn.model_selection import StratifiedKFold
 
 
 
+
+
+#hihi
+
 df = pd.read_csv('icml_face_data.csv')
 disgust_data_training = df[df[' Usage']=='Training']
 disgust_data_training = disgust_data_training[disgust_data_training['emotion']== 1]
